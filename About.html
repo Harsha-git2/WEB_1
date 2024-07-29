@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="course.html">course</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()" ></i>
+
+        </nav>
+
+        <h1>About Us</h1>
+        
+    </section>
+
+
+    <!-- About us Content  -->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are  the worlds Largest University</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores placeat nisi maiores perferendis pariatur cumque voluptatibus, quod, debitis iste qui doloribus, eum non? Dolor voluptas quasi molestiae voluptatem aut laborum</p>
+                    <a href="" class="hero-btn red-btn"> Explore Now</a>
+            </div>
+            <div class="about-col">
+                <img src="about.jpg">
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+
+<section class="footer">
+    <h4>About us </h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, dolore adipisci voluptas quia iusto architecto laborum deserunt, soluta animi facilis itaque labore hic illo, ex <br> fugit cumque distinctio exercitationem quo. </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+
+    <p style="font-size: 20px;margin:50px;"><b>Made by Harsha </b></p>
+</section>
+
+
+<!-- Java script for toogle  -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+          
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html> 

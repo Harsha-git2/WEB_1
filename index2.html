@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href=""><img src="logo.png" ></a>
+            <div class="nav-Links" id="nav-Links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">course</a></li>
+                    <li><a href="">Blog</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()" ></i>
+
+        </nav>
+
+        <div class="textbox">
+            <h1> I am Studying in BER University</h1>
+        <p> It is known as IIIT UNiversity by others Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime numquam mollitia blanditiis ratione, voluptas assumenda doloremque minus dicta et quidem quia quibusdam quasi rem ad fugiat enim sint, possimus explicabo!</p>
+        <a href="" class="red-btn"> VISIT US TO KNOW</a>
+        </div>
+
+    </section>
+
+<!-- javascript toggle -->
+<script>
+    var NavLinks = document.getElementById('nav-Links');
+    function showMenu(){
+        NavLinks.style.right= "0" ;
+    }
+    function hideMenu(){
+        NavLinks.style.right = "-200px";
+    }
+</script>
+
+
+
+</body>
+</html>

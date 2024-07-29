@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="course.html">course</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()" ></i>
+
+        </nav>
+
+        <div class="text-box">
+            <h1>Our Courses </h1>
+
+            <br>
+           
+        </div>
+        
+    </section>
+
+
+<!-- Facilties  -->
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="library.png">
+            <h3>World Class library</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus </p>
+        </div>
+
+        <div class="facilities-col">
+            <img src="basketball.png">
+            <h3>Largest Play Ground</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus </p>
+        </div>
+
+        <div class="facilities-col">
+            <img src="cafeteria.png">
+            <h3>Tasty and Healthy Food</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus </p>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- course -->
+
+<section class="course">
+    <h1> Courses we offer </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, odio excepturi, perferendis voluptas repellendus aspernatur asperiores quam praesentium dicta quidem nam consequatur consequuntur recusandae aliquid ea harum aliquam fugit voluptatum!</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed amet ab deleniti quos at recusandae natus corrupti praesentium ea suscipit laudantium obcaecati sit similique inventore, sunt possimus, impedit ratione tenetur.
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed amet ab deleniti quos at recusandae natus corrupti praesentium ea suscipit laudantium obcaecati sit similique inventore, sunt possimus, impedit ratione tenetur.
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduate </h3>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed amet ab deleniti quos at recusandae natus corrupti praesentium ea suscipit laudantium obcaecati sit similique inventore, sunt possimus, impedit ratione tenetur.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- Footer -->
+
+<section class="footer">
+    <h4>About us </h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, dolore adipisci voluptas quia iusto architecto laborum deserunt, soluta animi facilis itaque labore hic illo, ex <br> fugit cumque distinctio exercitationem quo. </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+
+    <p style="font-size: 20px;margin:50px;"><b>Made by Harsha </b></p>
+</section>
+
+
+<!-- Java script for toogle  -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+          
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html> 

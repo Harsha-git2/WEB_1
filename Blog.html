@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="course.html">course</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()" ></i>
+
+        </nav>
+
+        <h1>Our Certifiacte & Online Programs For 2024</h1>
+        
+    </section>
+
+    <!-- Blog Page  -->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="certificate.jpg">
+                <h2> Our Certifiacte & Online Programs For 2024</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores voluptatem quo pariatur est iste. Quisquam perspiciatis ad dolorem dolor harum. Ullam explicabo voluptatum, architecto atque eum doloremque facilis? Atque, culpa?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea corporis dicta quam accusantium qui voluptates saepe doloremque tenetur nam odio voluptatibus, recusandae eligendi totam ex reiciendis nobis alias magni maxime.</p>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nesciunt voluptates perspiciatis quaerat sit quidem quos laborum non facere laboriosam rem neque, magni praesentium ut consequuntur aperiam sequi aliquid officiis?
+                </p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, sequi. Expedita, placeat ratione! Consectetur alias, delectus laborum sunt exercitationem nihil, nobis vitae modi commodi officia sit rem voluptatibus, in accusantium.</p>
+
+                <div class="Comment-box">
+                    <h3> Leave a Comment</h3>
+                    <form class="Comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter email id">
+                        <textarea rows="5" placeholder="Your Comment "></textarea>
+                        <button type="submit" class="hero-btn red-btn"> Post Comment </button>
+                    </form>
+
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Cateogeries</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+
+                <div>
+                    <span>Web Development</span>
+                    <span>344</span>
+                </div>
+
+                <div>
+                    <span>Deep Learning </span>
+                    <span>34</span>
+                </div>
+
+                <div>
+                    <span>Artificial Intelligence</span>
+                    <span>21</span>
+                </div>
+
+                <div>
+                    <span>Mahine Learning</span>
+                    <span>21</span>
+                </div>
+
+                <div>
+                    <span>Shop Analytics</span>
+                    <span>21</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+
+    <section class="footer">
+        <h4>About us </h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, dolore adipisci voluptas quia iusto architecto laborum deserunt, soluta animi facilis itaque labore hic illo, ex <br> fugit cumque distinctio exercitationem quo. </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    
+        <p style="font-size: 20px;margin:50px;"><b>Made by Harsha </b></p>
+    </section>
+    
+    
+    <!-- Java script for toogle  -->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+              
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+    
+        </script>
+    
+    </body>
+    </html> 
